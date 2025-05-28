@@ -7,5 +7,4 @@ const todoRouter = express.Router();
 todoRouter.post('/', httpCreateTodo);
 todoRouter.get('/', httpGetTodos);
 
-
 module.exports = todoRouter;

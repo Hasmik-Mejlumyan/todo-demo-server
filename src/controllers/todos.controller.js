@@ -35,7 +35,7 @@ async function httpCreateTodo(req, res) {
   }
 }
 
-function httpGetTodos(req, res) {
+async function httpGetTodos(req, res) {
   try {
     return res.status(200).json({
       success: true,
